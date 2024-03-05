@@ -1,103 +1,31 @@
 import React from 'react'
-// import React, { Children }  from 'react'
-import NavBar from './components/NavBar'
-import Logo from './components/Logo'
-import {  BrowserRouter as Router} from 'react-router-dom';
-// import FloatingBg from './components/FloatingBg'
-import Pages from './Pages';
-// import ReactGA from "react-ga4";
-// import React, { Children } from 'react'
-// import { ThemeProvider } from './components/DarkAndLight/ThemeContext';
-// import {ThemeProvider, useTheme} from './components/DarkAndLight/ThemeContext'
+import Navbar from './Components/Navbar'
+import Hero from './Components/Hero'
+import HeadlineCards from './Components/HeadlineCards'
+import Products from './Components/Products'
+import  Category from './Components/Category'
+import Footer from './Components/Footer'
+import FooterTwo from './Components/FooterTwo'
+import FooterThree from './Components/FooterThree'
+import Developer from './Components/Developer'
+import SecoundCarousel from './Components/SecoundCarousel'
 
-// const TRACKING_ID = "G-5F7RMBE2C2"
-// ReactGA.initialize(TRACKING_ID);
-// const App = ({Children}) => {
+
 const App = () => {
-  
- 
   return (
+    <div>
 
-
-
-  
-    <div> 
-        <Router> 
-          <Logo/>     
-        <Pages/>    
-        <NavBar/>      
-      </Router>   
+      <Navbar/>
+      <Hero/>
+      <HeadlineCards/>
+      <Products/>
+     <SecoundCarousel/>
+      <Category/>
+      <Footer/>
+      <FooterTwo/>
+      <FooterThree/>
+      <Developer/> 
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//     <>
-//     <div> 
-      
-// <>
-// <FloatingBg/>
-// {Children}
-// </> 
-//         <Router>
-//         <Logo/>
-
-//         <>
-//         <Pages/>   
-//         </>
-
-//         <NavBar/>
-//       </Router>   
-//     </div>
-// </>
-
-
-
-
-
-    // <div>  
-
-    //   <>
-    //     <FloatingBg/>
-    //      {Children}
-    //      </>
-  
-    //     <Router>
-    //     <Logo/>
-        
-    //     <>
-    //     <Pages/>
-      
-    //      </>
-
-    //      <NavBar/>
-    //     </Router>
- 
-    // </div>
-   
-    
   )
 }
 
