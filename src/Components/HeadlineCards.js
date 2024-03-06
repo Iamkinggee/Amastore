@@ -1,7 +1,5 @@
 import React from 'react'
-import Headset from '../assets/Headset.jpg'
-import G2 from '../assets/G2.jpg'
-import G1 from '../assets/G1.jpg'
+
 
 const HeadlineCards = () => {
   return (
@@ -17,7 +15,7 @@ const HeadlineCards = () => {
             </div>
             <img 
             className='max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl'
-            src={Headset} alt="/" />
+            src={'https://images.pexels.com/photos/343717/pexels-photo-343717.jpeg?auto=compress&cs=tinysrgb&w=600'} alt="/" />
         </div>
 
 
@@ -33,7 +31,7 @@ const HeadlineCards = () => {
             </div>
             <img 
             className='max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl'
-            src={G2} alt="/" />
+            src={'https://cdn.pixabay.com/photo/2018/03/12/22/15/clothing-3221103_1280.jpg'} alt="/" />
         </div>
 
 
@@ -44,13 +42,13 @@ const HeadlineCards = () => {
             {/* Overlay */}
 
             <div className='absolute w-full h-full bg-black/50 rounded-xl text-white shadow-lg'>
-                <p className='font-bold text-2xl px-2 pt-4'>Premuim Wears</p>
+                <p className='font-bold text-2xl px-2 pt-4'>Premuim Gadgets</p>
                 <p className='px-2'>Through 8/26</p>
                 <button className='border-white bg-white text-black mx-2 absolute  bottom-4 hover:bg-purple-900 border-none font-bold hover:text-white'>Order Now</button>
             </div>
             <img 
             className='max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl'
-            src={G1} alt="/" />
+            src={'https://cdn.pixabay.com/photo/2022/01/25/12/16/laptop-6966045_1280.jpg'} alt="/" />
         </div>
     </div>
   )

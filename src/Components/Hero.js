@@ -1,7 +1,3 @@
-import man from '../assets/man.jpg'
-import G8 from '../assets/G8.jpg'
-import I1 from '../assets/I1.jpg'
-import Headset from '../assets/Headset.jpg'
 
 
 import { Carousel, Typography, Button } from "@material-tailwind/react";
@@ -12,7 +8,7 @@ const Hero = () => {
       <Carousel className="rounded-xl " autoplay={true} autoplayDelay={3000} loop={true}>
         <div className="relative h-full w-full">
           <img  loading="lazy"
-            src={man}
+             src={'https://images.unsplash.com/photo-1516762689617-e1cffcef479d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xvdGhpbmd8ZW58MHx8MHx8fDA%3D'}
             alt="image 2"
             className="max-h-[500px] w-full object-cover"
           />
@@ -45,7 +41,7 @@ const Hero = () => {
 
         <div className="relative h-full w-full">
           <img  loading="lazy"
-            src={G8}
+            src={'https://images.unsplash.com/photo-1541689592655-f5f52825a3b8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG11c2ljYWwlMjBpbnN0cnVtZW50fGVufDB8fDB8fHww'}
             className="max-h-[500px] w-full object-cover"
           />
           <div className="absolute inset-0 grid h-full w-full items-center  bg-gradient-to-r from-black to-transparent bg-opacity-80">
@@ -73,7 +69,7 @@ const Hero = () => {
 
         <div className="relative h-full w-full">
           <img  loading="lazy"
-          src={Headset}
+         src={'https://images.unsplash.com/photo-1562157873-818bc0726f68?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNsb3RoaW5nfGVufDB8fDB8fHww'}
             alt="image 2"
             className="max-h-[500px] w-full object-cover"
           />
@@ -105,7 +101,7 @@ const Hero = () => {
 
         <div className="relative h-full w-full">
           <img  loading="lazy"
-            src={I1}
+            src={'https://images.pexels.com/photos/2868266/pexels-photo-2868266.jpeg?auto=compress&cs=tinysrgb&w=600'}
             alt="image 2"
             className="max-h-[500px] w-full object-cover"
           />

@@ -19,7 +19,7 @@ const Navbar = () => {
        className='cursor-pointer'>
         <AiOutlineMenu size={30}/>
       </div>
-      <h1 className='justify-center  text-[40px] ml-5 text-center '><span className='font-bold text-purple-900'>a</span>mastore</h1>
+      <h1 className='justify-center text-[20px]  md:text-[40px] ml-5 text-center '><span className='font-bold text-purple-900'>a</span>mastore</h1>
 
 
     </div> 
@@ -46,7 +46,7 @@ const Navbar = () => {
 <AiOutlineClose onClick={()=>setNav(!nav)} size={30} className='absolute right-4
 top-4 cursor-pointer text-white'/>
 
-<h1 className='justify-center w-full text-[30px] border-b-2 border-purple-700/20 p-5 bg-black text-white'><span className='font-bold text-purple-900'>a</span>mastore</h1>
+<h1 className='justify-center w-full text-[20px] md:text-[40px] border-b-2 border-purple-700/20 p-5 bg-black text-white'><span className='font-bold text-purple-900'>a</span>mastore</h1>
 
 <nav>
     <ul className='flex flex-col p-4 text-gray-800 cursor-pointer'>

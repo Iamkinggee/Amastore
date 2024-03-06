@@ -19,7 +19,7 @@ const App = () => {
       <Hero/>
       <HeadlineCards/>
       <Products/>
-     <SecoundCarousel/>
+      <SecoundCarousel/>
       <Category/>
       <Footer/>
       <FooterTwo/>
